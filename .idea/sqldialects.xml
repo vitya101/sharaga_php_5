@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/fucking_slaves_social_network.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/services/login.service.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/services/reg.service.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/services/role.service.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/services/user.service.php" dialect="GenericSQL" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/813a694d-a932-4cde-9827-220c43fc6ece/console.sql" dialect="MySQL" />
+  </component>
+</project>

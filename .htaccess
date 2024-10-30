@@ -1,0 +1,12 @@
+RewriteEngine On
+
+# Перенаправляем корень на index.php
+RewriteRule ^$ /views/pages/index.php [L]
+
+# Убираем расширение .php из URL
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^\.]+)$ /views/pages/$1.php [L,QSA]
+
+# Если файл не найден, перенаправляем на страницу 404
+ErrorDocument 404 /views/pages/404.php
